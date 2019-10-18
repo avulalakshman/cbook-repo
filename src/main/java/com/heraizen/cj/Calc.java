@@ -9,5 +9,6 @@ public class Calc{
 		}
 		public int sum(Integer arr[]) {
 			return Arrays.asList(arr).stream().reduce(0,Integer::sum);
+			
 		}
 }
