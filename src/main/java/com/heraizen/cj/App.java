@@ -1,7 +1,8 @@
 package com.heraizen.cj;
 public class App {
     public String getGreeting(String name) {
-        return "Hello : "+name +"how are you?";
+        
+        return new StringBuilder(name).append(" how are you?").toString();
     }
 
     public static void main(String[] args) {
