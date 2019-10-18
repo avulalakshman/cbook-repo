@@ -8,7 +8,6 @@ public class Calc{
 			return a + b;
 		}
 		public int sum(Integer arr[]) {
-            int res = Arrays.asList(arr).stream().reduce(0,Integer::sum);
-			return res;
+			return Arrays.asList(arr).stream().reduce(0,Integer::sum);;
 		}
 }
