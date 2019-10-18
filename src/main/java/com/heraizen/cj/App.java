@@ -1,7 +1,7 @@
 package com.heraizen.cj;
 public class App {
-    public String getGreeting() {
-        return "Hello world.";
+    public String getGreeting(String name) {
+        return "Hello : "+name;
     }
 
     public static void main(String[] args) {
